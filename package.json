@@ -1,0 +1,12 @@
+{
+  "name": "kinari-ui",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.27.0",
+  "scripts": {
+    "dev": "pnpm --dir apps/web dev",
+    "build": "pnpm --dir apps/web build",
+    "start": "pnpm --dir apps/web start",
+    "typecheck": "pnpm --dir apps/web typecheck"
+  }
+}
